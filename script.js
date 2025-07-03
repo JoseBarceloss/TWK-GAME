@@ -210,7 +210,7 @@ window.addEventListener('load', function() {
         });
         obstacles = obstacles.filter(o => !o.markedForDeletion);
 
-        if (score > 0 && score % 50 === 0 && !background.isNegaPhase) {
+        if (score > 0 && score % 200 === 0 && !background.isNegaPhase) {
             background.startNegaPhase();
             gameSpeed *= 1.5;
             background.speed *= 1.5;
