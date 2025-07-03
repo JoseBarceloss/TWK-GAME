@@ -239,7 +239,7 @@ window.addEventListener('load', function() {
             const buttonImage = startButtonImages[0];
             const buttonHeight = buttonWidth * (buttonImage.height / buttonImage.width);
             const buttonX = (canvas.width / 2) - (buttonWidth / 2);
-            const buttonY = (canvas.height * 0.7) + 10;
+            const buttonY = (canvas.height * 0.7) + 5;
 
             startButtonRect = { x: buttonX, y: buttonY, width: buttonWidth, height: buttonHeight };
             
