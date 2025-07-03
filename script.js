@@ -193,7 +193,7 @@ window.addEventListener('load', function() {
             obstacles.push(new Obstacle(canvas.width, canvas.height, gameSpeed));
             obstacleTimer = Math.random() * 40 + 30; 
         } else {
-            obstacleTimer -= deltaTime / 13.67; 
+            obstacleTimer -= deltaTime / 23.67; 
         }
 
         obstacles.forEach(o => {
